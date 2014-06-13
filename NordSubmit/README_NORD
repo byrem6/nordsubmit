@@ -1,12 +1,14 @@
 
 INSTRUCTIONS
 
-1.      You need to implement Parse SDK, here is our parse AppID & Key
+1.      You need to implement Parse SDK. Here is our parse AppID & Key
         APP ID       : cge3OVYP4O3F50FDyiEI8wbyO5TL7uUgDhf8ncWu
         CLIENT KEY   : 3muj8vCUaLsa4W7XGeSxjFO2s4XxZ6kovGdbav3E
         
-2.      submit your data (name, email, phone) to the parse user table.
+2.      Submit your data (name, email, phone, any notes you wanna share with us, etc.) to the parse user class.
 
-3.      if you are not sure what to do, you may check this link (https://www.parse.com/docs/ios_guide#users/iOS) out.
+3.      You may feel free to play around.
 
-3.      have fun! :)
+3.      If you are not sure what to do, you may check this link (https://www.parse.com/docs/ios_guide#users/iOS) out.
+
+3.      Have fun! :)
