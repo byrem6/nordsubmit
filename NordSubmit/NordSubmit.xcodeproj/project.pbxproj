@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737B7990194B057D00DEBF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B798F194B057D00DEBF29 /* main.m */; };
+		737B7993194B057D00DEBF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B7992194B057D00DEBF29 /* AppDelegate.m */; };
+		737B7995194B057D00DEBF29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737B7994194B057D00DEBF29 /* Images.xcassets */; };
+		737B79AC194B05C700DEBF29 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B79AB194B05C700DEBF29 /* SubmitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		737B799B194B057D00DEBF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737B7982194B057D00DEBF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737B7989194B057D00DEBF29;
+			remoteInfo = NordSubmit;
+		};
+		737B79AE194B05E200DEBF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737B7982194B057D00DEBF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737B7989194B057D00DEBF29;
+			remoteInfo = NordSubmit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		737B798A194B057D00DEBF29 /* NordSubmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordSubmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737B798E194B057D00DEBF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737B798F194B057D00DEBF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		737B7991194B057D00DEBF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		737B7992194B057D00DEBF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		737B7994194B057D00DEBF29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NordSubmitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737B79AA194B05C700DEBF29 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubmitViewController.h; path = controllers/SubmitViewController.h; sourceTree = "<group>"; };
+		737B79AB194B05C700DEBF29 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubmitViewController.m; path = controllers/SubmitViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737B7987194B057D00DEBF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737B7997194B057D00DEBF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737B7981194B057D00DEBF29 = {
+			isa = PBXGroup;
+			children = (
+				737B798C194B057D00DEBF29 /* NordSubmit */,
+				737B798B194B057D00DEBF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		737B798B194B057D00DEBF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737B798A194B057D00DEBF29 /* NordSubmit.app */,
+				737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737B798C194B057D00DEBF29 /* NordSubmit */ = {
+			isa = PBXGroup;
+			children = (
+				737B79AD194B05CD00DEBF29 /* Controllers */,
+				737B7991194B057D00DEBF29 /* AppDelegate.h */,
+				737B7992194B057D00DEBF29 /* AppDelegate.m */,
+				737B7994194B057D00DEBF29 /* Images.xcassets */,
+				737B798D194B057D00DEBF29 /* Supporting Files */,
+			);
+			path = NordSubmit;
+			sourceTree = "<group>";
+		};
+		737B798D194B057D00DEBF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				737B798E194B057D00DEBF29 /* Info.plist */,
+				737B798F194B057D00DEBF29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		737B79AD194B05CD00DEBF29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				737B79AA194B05C700DEBF29 /* SubmitViewController.h */,
+				737B79AB194B05C700DEBF29 /* SubmitViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737B7989194B057D00DEBF29 /* NordSubmit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737B79A4194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmit" */;
+			buildPhases = (
+				737B7986194B057D00DEBF29 /* Sources */,
+				737B7987194B057D00DEBF29 /* Frameworks */,
+				737B7988194B057D00DEBF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NordSubmit;
+			productName = NordSubmit;
+			productReference = 737B798A194B057D00DEBF29 /* NordSubmit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		737B7999194B057D00DEBF29 /* NordSubmitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737B79A7194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmitTests" */;
+			buildPhases = (
+				737B7996194B057D00DEBF29 /* Sources */,
+				737B7997194B057D00DEBF29 /* Frameworks */,
+				737B7998194B057D00DEBF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737B799C194B057D00DEBF29 /* PBXTargetDependency */,
+				737B79AF194B05E200DEBF29 /* PBXTargetDependency */,
+			);
+			name = NordSubmitTests;
+			productName = NordSubmitTests;
+			productReference = 737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737B7982194B057D00DEBF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Gurkan Tumer";
+				TargetAttributes = {
+					737B7989194B057D00DEBF29 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					737B7999194B057D00DEBF29 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 737B7989194B057D00DEBF29;
+					};
+				};
+			};
+			buildConfigurationList = 737B7985194B057D00DEBF29 /* Build configuration list for PBXProject "NordSubmit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 737B7981194B057D00DEBF29;
+			productRefGroup = 737B798B194B057D00DEBF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737B7989194B057D00DEBF29 /* NordSubmit */,
+				737B7999194B057D00DEBF29 /* NordSubmitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737B7988194B057D00DEBF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737B7995194B057D00DEBF29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737B7998194B057D00DEBF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737B7986194B057D00DEBF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737B7993194B057D00DEBF29 /* AppDelegate.m in Sources */,
+				737B79AC194B05C700DEBF29 /* SubmitViewController.m in Sources */,
+				737B7990194B057D00DEBF29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737B7996194B057D00DEBF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737B799C194B057D00DEBF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737B7989194B057D00DEBF29 /* NordSubmit */;
+			targetProxy = 737B799B194B057D00DEBF29 /* PBXContainerItemProxy */;
+		};
+		737B79AF194B05E200DEBF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737B7989194B057D00DEBF29 /* NordSubmit */;
+			targetProxy = 737B79AE194B05E200DEBF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		737B79A2194B057D00DEBF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		737B79A3194B057D00DEBF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		737B79A5194B057D00DEBF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NordSubmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		737B79A6194B057D00DEBF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = NordSubmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		737B79A8194B057D00DEBF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NordSubmit.app/NordSubmit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NordSubmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		737B79A9194B057D00DEBF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NordSubmit.app/NordSubmit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NordSubmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737B7985194B057D00DEBF29 /* Build configuration list for PBXProject "NordSubmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737B79A2194B057D00DEBF29 /* Debug */,
+				737B79A3194B057D00DEBF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737B79A4194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737B79A5194B057D00DEBF29 /* Debug */,
+				737B79A6194B057D00DEBF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		737B79A7194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737B79A8194B057D00DEBF29 /* Debug */,
+				737B79A9194B057D00DEBF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737B7982194B057D00DEBF29 /* Project object */;
+}
