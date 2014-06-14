@@ -11,24 +11,8 @@
 		737B7993194B057D00DEBF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B7992194B057D00DEBF29 /* AppDelegate.m */; };
 		737B7995194B057D00DEBF29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737B7994194B057D00DEBF29 /* Images.xcassets */; };
 		737B79AC194B05C700DEBF29 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B79AB194B05C700DEBF29 /* SubmitViewController.m */; };
+		737B79B3194B076200DEBF29 /* README_NORD in Resources */ = {isa = PBXBuildFile; fileRef = 737B79B2194B076200DEBF29 /* README_NORD */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		737B799B194B057D00DEBF29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 737B7982194B057D00DEBF29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 737B7989194B057D00DEBF29;
-			remoteInfo = NordSubmit;
-		};
-		737B79AE194B05E200DEBF29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 737B7982194B057D00DEBF29 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 737B7989194B057D00DEBF29;
-			remoteInfo = NordSubmit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		737B798A194B057D00DEBF29 /* NordSubmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NordSubmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +21,13 @@
 		737B7991194B057D00DEBF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		737B7992194B057D00DEBF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		737B7994194B057D00DEBF29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NordSubmitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		737B79AA194B05C700DEBF29 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubmitViewController.h; path = controllers/SubmitViewController.h; sourceTree = "<group>"; };
 		737B79AB194B05C700DEBF29 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubmitViewController.m; path = controllers/SubmitViewController.m; sourceTree = "<group>"; };
+		737B79B2194B076200DEBF29 /* README_NORD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_NORD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		737B7987194B057D00DEBF29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		737B7997194B057D00DEBF29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +40,7 @@
 		737B7981194B057D00DEBF29 = {
 			isa = PBXGroup;
 			children = (
+				737B79B2194B076200DEBF29 /* README_NORD */,
 				737B798C194B057D00DEBF29 /* NordSubmit */,
 				737B798B194B057D00DEBF29 /* Products */,
 			);
@@ -72,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				737B798A194B057D00DEBF29 /* NordSubmit.app */,
-				737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,25 +104,6 @@
 			productReference = 737B798A194B057D00DEBF29 /* NordSubmit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		737B7999194B057D00DEBF29 /* NordSubmitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 737B79A7194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmitTests" */;
-			buildPhases = (
-				737B7996194B057D00DEBF29 /* Sources */,
-				737B7997194B057D00DEBF29 /* Frameworks */,
-				737B7998194B057D00DEBF29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				737B799C194B057D00DEBF29 /* PBXTargetDependency */,
-				737B79AF194B05E200DEBF29 /* PBXTargetDependency */,
-			);
-			name = NordSubmitTests;
-			productName = NordSubmitTests;
-			productReference = 737B799A194B057D00DEBF29 /* NordSubmitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,10 +115,6 @@
 				TargetAttributes = {
 					737B7989194B057D00DEBF29 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					737B7999194B057D00DEBF29 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 737B7989194B057D00DEBF29;
 					};
 				};
 			};
@@ -177,7 +131,6 @@
 			projectRoot = "";
 			targets = (
 				737B7989194B057D00DEBF29 /* NordSubmit */,
-				737B7999194B057D00DEBF29 /* NordSubmitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,13 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				737B7995194B057D00DEBF29 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		737B7998194B057D00DEBF29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				737B79B3194B076200DEBF29 /* README_NORD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,27 +158,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		737B7996194B057D00DEBF29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		737B799C194B057D00DEBF29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 737B7989194B057D00DEBF29 /* NordSubmit */;
-			targetProxy = 737B799B194B057D00DEBF29 /* PBXContainerItemProxy */;
-		};
-		737B79AF194B05E200DEBF29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 737B7989194B057D00DEBF29 /* NordSubmit */;
-			targetProxy = 737B79AE194B05E200DEBF29 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		737B79A2194B057D00DEBF29 /* Debug */ = {
@@ -320,6 +247,7 @@
 				INFOPLIST_FILE = NordSubmit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,42 +259,7 @@
 				INFOPLIST_FILE = NordSubmit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		737B79A8194B057D00DEBF29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NordSubmit.app/NordSubmit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NordSubmitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		737B79A9194B057D00DEBF29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NordSubmit.app/NordSubmit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NordSubmitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -387,14 +280,6 @@
 			buildConfigurations = (
 				737B79A5194B057D00DEBF29 /* Debug */,
 				737B79A6194B057D00DEBF29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		737B79A7194B057D00DEBF29 /* Build configuration list for PBXNativeTarget "NordSubmitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				737B79A8194B057D00DEBF29 /* Debug */,
-				737B79A9194B057D00DEBF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
