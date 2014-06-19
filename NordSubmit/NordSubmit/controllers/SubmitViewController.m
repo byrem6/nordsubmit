@@ -7,6 +7,7 @@
 //
 
 #import "SubmitViewController.h"
+#import "Kisi.h"
 
 @interface SubmitViewController ()
 
@@ -18,8 +19,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-        self.view.backgroundColor = [UIColor darkGrayColor];
+
+        //self.view.backgroundColor = [UIColor darkGrayColor]; Bu rengi Sevmedim :)
     }
     return self;
 }
@@ -27,14 +28,55 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated{
+    
+    Kisi * my=[[Kisi alloc]init];
+    my.isim_soyisim=@"Ramazan Hocaoğlu";
+     my.telefon=@"0(545) 472 56 76";
+     my.mail=@"remindfunction@gmail.com";
+     my.aciklama=@"Deneme Bir İki Üç :)";
+     my.okul=@"Marmara Üniversitesi";
+    my.deneyim=@".net +9y / ios +4y ";
+    
+    vCard=[[NSMutableDictionary alloc]initWithDictionary:my.getvCard];
+    
+    
+    
+    [my SaveParse];
+
+    [self.tableView reloadData];
+    
 }
+
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return [vCard count];
+    
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    UITableViewCell * myCell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"myCellTemp"];
+    
+    myCell.textLabel.text=vCard.allKeys[indexPath.row];
+    myCell.detailTextLabel.text=vCard.allValues[indexPath.row];
+    
+    
+    return myCell;
+    
+}
+
 
 /*
 #pragma mark - Navigation

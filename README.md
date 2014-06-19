@@ -1,4 +1,4 @@
 nordsubmit
 ==========
 
-submit your details.
+submit your contact details and CV.

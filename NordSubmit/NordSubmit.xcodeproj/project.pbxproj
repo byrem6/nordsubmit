@@ -12,6 +12,19 @@
 		737B7995194B057D00DEBF29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737B7994194B057D00DEBF29 /* Images.xcassets */; };
 		737B79AC194B05C700DEBF29 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B79AB194B05C700DEBF29 /* SubmitViewController.m */; };
 		737B79B3194B076200DEBF29 /* README_NORD in Resources */ = {isa = PBXBuildFile; fileRef = 737B79B2194B076200DEBF29 /* README_NORD */; };
+		B285435618CF9A9600860787 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B285435518CF9A9600860787 /* Storyboard.storyboard */; };
+		B285435818CF9F8600860787 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285435718CF9F8500860787 /* AudioToolbox.framework */; };
+		B285435A18CF9F8E00860787 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285435918CF9F8E00860787 /* CFNetwork.framework */; };
+		B285435C18CF9F9D00860787 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285435B18CF9F9D00860787 /* CoreGraphics.framework */; };
+		B285435E18CF9FA500860787 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285435D18CF9FA500860787 /* CoreLocation.framework */; };
+		B285436018CF9FAF00860787 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B285435F18CF9FAF00860787 /* libz.dylib */; };
+		B285436218CF9FB900860787 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436118CF9FB900860787 /* MobileCoreServices.framework */; };
+		B285436418CF9FC200860787 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436318CF9FC200860787 /* QuartzCore.framework */; };
+		B285436618CF9FC900860787 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436518CF9FC900860787 /* Security.framework */; };
+		B285436818CF9FD200860787 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436718CF9FD200860787 /* StoreKit.framework */; };
+		B285436A18CF9FDD00860787 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436918CF9FDD00860787 /* SystemConfiguration.framework */; };
+		B285436E18CFA0FC00860787 /* Kisi.m in Sources */ = {isa = PBXBuildFile; fileRef = B285436D18CFA0FC00860787 /* Kisi.m */; };
+		B285437018CFA4F600860787 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285436F18CFA4F600860787 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,20 @@
 		737B79AA194B05C700DEBF29 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubmitViewController.h; path = controllers/SubmitViewController.h; sourceTree = "<group>"; };
 		737B79AB194B05C700DEBF29 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubmitViewController.m; path = controllers/SubmitViewController.m; sourceTree = "<group>"; };
 		737B79B2194B076200DEBF29 /* README_NORD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_NORD; sourceTree = "<group>"; };
+		B285435518CF9A9600860787 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B285435718CF9F8500860787 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B285435918CF9F8E00860787 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B285435B18CF9F9D00860787 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B285435D18CF9FA500860787 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B285435F18CF9FAF00860787 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B285436118CF9FB900860787 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B285436318CF9FC200860787 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B285436518CF9FC900860787 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B285436718CF9FD200860787 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B285436918CF9FDD00860787 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B285436C18CFA0FC00860787 /* Kisi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kisi.h; path = controllers/Kisi.h; sourceTree = "<group>"; };
+		B285436D18CFA0FC00860787 /* Kisi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kisi.m; path = controllers/Kisi.m; sourceTree = "<group>"; };
+		B285436F18CFA4F600860787 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B285436A18CF9FDD00860787 /* SystemConfiguration.framework in Frameworks */,
+				B285436818CF9FD200860787 /* StoreKit.framework in Frameworks */,
+				B285436618CF9FC900860787 /* Security.framework in Frameworks */,
+				B285436418CF9FC200860787 /* QuartzCore.framework in Frameworks */,
+				B285436218CF9FB900860787 /* MobileCoreServices.framework in Frameworks */,
+				B285436018CF9FAF00860787 /* libz.dylib in Frameworks */,
+				B285437018CFA4F600860787 /* Parse.framework in Frameworks */,
+				B285435E18CF9FA500860787 /* CoreLocation.framework in Frameworks */,
+				B285435C18CF9F9D00860787 /* CoreGraphics.framework in Frameworks */,
+				B285435A18CF9F8E00860787 /* CFNetwork.framework in Frameworks */,
+				B285435818CF9F8600860787 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,10 +95,13 @@
 		737B798C194B057D00DEBF29 /* NordSubmit */ = {
 			isa = PBXGroup;
 			children = (
+				B285435418CF9A7B00860787 /* Model */,
+				B285435318CF9A7400860787 /* View */,
 				737B79AD194B05CD00DEBF29 /* Controllers */,
 				737B7991194B057D00DEBF29 /* AppDelegate.h */,
 				737B7992194B057D00DEBF29 /* AppDelegate.m */,
 				737B7994194B057D00DEBF29 /* Images.xcassets */,
+				B285436B18CF9FE300860787 /* framework */,
 				737B798D194B057D00DEBF29 /* Supporting Files */,
 			);
 			path = NordSubmit;
@@ -80,8 +121,44 @@
 			children = (
 				737B79AA194B05C700DEBF29 /* SubmitViewController.h */,
 				737B79AB194B05C700DEBF29 /* SubmitViewController.m */,
+				B285436C18CFA0FC00860787 /* Kisi.h */,
+				B285436D18CFA0FC00860787 /* Kisi.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B285435318CF9A7400860787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B285435518CF9A9600860787 /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B285435418CF9A7B00860787 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B285436B18CF9FE300860787 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				B285436F18CFA4F600860787 /* Parse.framework */,
+				B285436918CF9FDD00860787 /* SystemConfiguration.framework */,
+				B285436718CF9FD200860787 /* StoreKit.framework */,
+				B285436518CF9FC900860787 /* Security.framework */,
+				B285436318CF9FC200860787 /* QuartzCore.framework */,
+				B285436118CF9FB900860787 /* MobileCoreServices.framework */,
+				B285435F18CF9FAF00860787 /* libz.dylib */,
+				B285435D18CF9FA500860787 /* CoreLocation.framework */,
+				B285435B18CF9F9D00860787 /* CoreGraphics.framework */,
+				B285435918CF9F8E00860787 /* CFNetwork.framework */,
+				B285435718CF9F8500860787 /* AudioToolbox.framework */,
+			);
+			name = framework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +219,7 @@
 			files = (
 				737B7995194B057D00DEBF29 /* Images.xcassets in Resources */,
 				737B79B3194B076200DEBF29 /* README_NORD in Resources */,
+				B285435618CF9A9600860787 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				737B7993194B057D00DEBF29 /* AppDelegate.m in Sources */,
+				B285436E18CFA0FC00860787 /* Kisi.m in Sources */,
 				737B79AC194B05C700DEBF29 /* SubmitViewController.m in Sources */,
 				737B7990194B057D00DEBF29 /* main.m in Sources */,
 			);
@@ -244,7 +323,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/byrem6/Downloads/nordsubmit-master/NordSubmit",
+				);
 				INFOPLIST_FILE = NordSubmit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -256,7 +340,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/byrem6/Downloads/nordsubmit-master/NordSubmit",
+				);
 				INFOPLIST_FILE = NordSubmit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -282,6 +371,7 @@
 				737B79A6194B057D00DEBF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

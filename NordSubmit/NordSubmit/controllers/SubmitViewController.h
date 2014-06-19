@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SubmitViewController : UIViewController
+@interface SubmitViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    NSMutableDictionary * vCard;
+}
 
 @end

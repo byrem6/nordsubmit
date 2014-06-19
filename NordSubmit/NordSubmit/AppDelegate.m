@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SubmitViewController.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
             
@@ -26,6 +27,11 @@
     self.window.rootViewController = view;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    [Parse setApplicationId:@"cge3OVYP4O3F50FDyiEI8wbyO5TL7uUgDhf8ncWu"
+                  clientKey:@"3muj8vCUaLsa4W7XGeSxjFO2s4XxZ6kovGdbav3E"];
+    
     return YES;
 }
 
